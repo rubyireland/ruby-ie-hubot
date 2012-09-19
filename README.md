@@ -1,3 +1,30 @@
+# The ruby-ie hubot
+
+This is the RubyIreland Hubot, which prowls the #ruby.ie IRC channel as
+the user ruby-ie. You can get a full list of commands by going into the
+Ruby IRC channel at #ruby.ie on irc.freenode.net and running
+`ruby-ie help` Please note that the output of the help command will
+appear for all users on the #ruby-ie channel as will the output of any
+commands - think of it as something collaborative! That's okay, just
+don't go crazy on the help command (eg. run it once and copy and paste
+the output into a text file for future reference). The other commands
+are less verbose in terms of output - and lots more fun!
+
+## Hacking on the ruby-ie hubot
+It's easy to add interesting new things to the RubyIreland hubot. You'll
+need to install node locally (see below) to get things going. Then just
+comment out the redis dependency (`redis-brain.coffee`) from
+`hubot-scripts` and run bin/hubot to get a local hubot shell into which
+you can run commands - just like you are on the IRC channel! Extending
+the ruby-ie hubot's range of commands is done through coffeescript files
+under the scripts directory. Give it a go, then submit a pull request
+or let us know by posting on
+https://groups.google.com/forum/?fromgroups#!forum/ruby_ireland
+
+The existing Hubot README file contents have been preserved below to
+help you get set up. Take the time to read it and you'll be cranking out
+sickingly cool ruby-ie hubot extensions in no time.
+
 # Hubot
 
 This is a version of GitHub's Campfire bot, hubot. He's pretty cool.
