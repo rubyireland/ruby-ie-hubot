@@ -18,7 +18,9 @@
     "hubot": "2.2.0",
     "hubot-scripts": ">=2.0.8",
     "hubot-irc": "0.0.8",
-    "optparse": "1.0.3"
+    "optparse": "1.0.3",
+    "htmlparser": "1.7.6",
+    "soupselect": "0.2.0"
   },
 
   "engines": {
